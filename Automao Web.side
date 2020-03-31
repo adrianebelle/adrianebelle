@@ -1,0 +1,370 @@
+{
+  "id": "7fd5de40-c521-46ce-a5e8-eceba974bfad",
+  "version": "2.0",
+  "name": "Automação Web",
+  "url": "https://www.submarino.com.br/produto/93842005/xiaomi-redmi-airdots-fone-de-ouvido-5-0-fones-de-ouvido-sem-fio-com-microfone-handsfree-f?pfm_carac=Fones%20de%20Ouvido&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid",
+  "tests": [{
+    "id": "6a825378-d564-40e5-900a-ce603a4a50fd",
+    "name": "Acessar Site",
+    "commands": [{
+      "id": "0f147f8b-6565-4150-9f5d-b24c5058dfc5",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9d8f3031-ca56-4794-81fd-d1b2de6e9d0b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0b9bf641-5bc3-4bc9-bc2d-301eda71889c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ColUI-gjy0oc-0 > .spacey-image .Image-sc-1m5klhe-0",
+      "targets": [
+        ["css=.ColUI-gjy0oc-0 > .spacey-image .Image-sc-1m5klhe-0", "css:finder"],
+        ["xpath=//img[@alt='Gamer Hardcore']", "xpath:img"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/div[2]/div/a/div/picture/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/div/picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "3f1587dd-2670-4d2b-a5a0-e465ee606730",
+    "name": "Realizar Busca",
+    "commands": [{
+      "id": "5e7c0544-5373-4eff-a60c-bccc88fce679",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.submarino.com.br/landingpage/gamer-hardcore?chave=prf_hm_hr_0_1_gamer-hardcore-header&pfmPage=home&pfmPos=maintop1&pfm_carac=Nome%20da%20area&pfm_index=0&pfm_type=vit_spacey",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "af723d42-2d1a-456a-ac41-a6961b5a5a30",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9b49575d-22a9-41e7-89cd-7cf7d2323f12",
+      "comment": "",
+      "command": "click",
+      "target": "id=h_search-input",
+      "targets": [
+        ["id=h_search-input", "id"],
+        ["name=conteudo", "name"],
+        ["css=#h_search-input", "css:finder"],
+        ["xpath=//input[@id='h_search-input']", "xpath:attributes"],
+        ["xpath=//div[@id='h_search']/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "360b089e-4c76-4b1e-acb7-c0019adbc441",
+      "comment": "",
+      "command": "type",
+      "target": "id=h_search-input",
+      "targets": [
+        ["id=h_search-input", "id"],
+        ["name=conteudo", "name"],
+        ["css=#h_search-input", "css:finder"],
+        ["xpath=//input[@id='h_search-input']", "xpath:attributes"],
+        ["xpath=//div[@id='h_search']/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "fone de ouvido"
+    }, {
+      "id": "a17474ce-34c5-4d2a-b8a4-8ad8a00e36d7",
+      "comment": "",
+      "command": "click",
+      "target": "id=h_search-btn",
+      "targets": [
+        ["id=h_search-btn", "id"],
+        ["css=#h_search-btn", "css:finder"],
+        ["xpath=//button[@id='h_search-btn']", "xpath:attributes"],
+        ["xpath=//div[@id='h_search']/form/div/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "128123a8-7714-4dad-95c2-79613e669d43",
+    "name": "Selecionar Produto",
+    "commands": [{
+      "id": "5a41e2a8-ff01-4553-a088-fa13d34cae86",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.submarino.com.br/busca/fone-de-ouvido",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "92ad5706-4393-4cd9-830d-f094d67c4897",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,584)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5ab4d235-1faf-4a17-b86a-b24186051a5b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-grid-item:nth-child(2) .TitleUI-bwhjk3-15",
+      "targets": [
+        ["css=.product-grid-item:nth-child(2) .TitleUI-bwhjk3-15", "css:finder"],
+        ["xpath=//div[@id='content-middle']/div[6]/div/div/div/div/div[2]/div/div[2]/a/section/div[2]/div/h2", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/a/section/div[2]/div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Xiaomi Redmi Airdots Fone De Ouvido 5.0 Fones De Ouvido Sem Fio Com Microfone Handsfree F')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "db922024-cbb4-418e-8fc5-f284e2061eef",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "95f5eb3f-f356-4f09-89c5-357248db02f3",
+    "name": "Adicionar ao Carrinho",
+    "commands": [{
+      "id": "d8740ebb-ed6a-4ffa-94df-23a26d8980f3",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.submarino.com.br/produto/93842005/xiaomi-redmi-airdots-fone-de-ouvido-5-0-fones-de-ouvido-sem-fio-com-microfone-handsfree-f?pfm_carac=fone%20de%20ouvido&pfm_index=1&pfm_page=search&pfm_pos=grid&pfm_type=search_page",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "50cbac4d-05be-40c5-a945-fe675c188bb9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3bec5d1e-df05-4d0b-95c4-08c28b87931a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bmDUpk",
+      "targets": [
+        ["css=.bmDUpk", "css:finder"],
+        ["xpath=//a[@id='btn-buy']/div/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/a/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Comprar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "e793f5be-fe86-4e83-bad5-fd2e4e907caa",
+    "name": "realizar busca pelo menu",
+    "commands": [{
+      "id": "81fc3167-9950-46fa-9284-67824fd83314",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.submarino.com.br/landingpage/gamer-hardcore?chave=prf_hm_hr_0_1_gamer-hardcore-header&pfmPage=home&pfmPos=maintop1&pfm_carac=Nome%20da%20area&pfm_index=0&pfm_type=vit_spacey",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ee4dd804-074d-4685-a0b8-cdc423cfd143",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a1337143-072a-43a4-b3d4-6c9daf9a3c0a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Vem ver as lojasAbrir menu",
+      "targets": [
+        ["linkText=Vem ver as lojasAbrir menu", "linkText"],
+        ["css=.mmn-link", "css:finder"],
+        ["xpath=//nav[@id='h_menu']/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.submarino.com.br/mapa-do-site')]", "xpath:href"],
+        ["xpath=//nav/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Vem ver as lojas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f955c95-1a3f-418c-95ce-74154298b3db",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Vem ver as lojasAbrir menu",
+      "targets": [
+        ["linkText=Vem ver as lojasAbrir menu", "linkText"],
+        ["css=.mmn-link", "css:finder"],
+        ["xpath=//nav[@id='h_menu']/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.submarino.com.br/mapa-do-site')]", "xpath:href"],
+        ["xpath=//nav/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Vem ver as lojas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7dab02c1-090d-453c-a9cb-d0fcc6725079",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mmn-sdb-arrow:nth-child(3)",
+      "targets": [
+        ["css=.mmn-sdb-arrow:nth-child(3)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "37e72376-73e0-4f45-9de2-ff670623c4fd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mmn-sdb-arrow:nth-child(3)",
+      "targets": [
+        ["css=.mmn-sdb-arrow:nth-child(3)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "22d7ab3e-ef67-446b-bf6d-953a8218f8d4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.mmn-sdb-arrow:nth-child(3)",
+      "targets": [
+        ["css=.mmn-sdb-arrow:nth-child(3)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "30e14ef3-9108-450d-833d-7f9958d43c96",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.mmn-sdb-arrow:nth-child(3)",
+      "targets": [
+        ["css=.mmn-sdb-arrow:nth-child(3)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "89094328-811d-48b5-8921-22c03c087816",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Vem ver as lojasAbrir menu",
+      "targets": [
+        ["linkText=Vem ver as lojasAbrir menu", "linkText"],
+        ["css=.mmn-link", "css:finder"],
+        ["xpath=//nav[@id='h_menu']/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.submarino.com.br/mapa-do-site')]", "xpath:href"],
+        ["xpath=//nav/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Vem ver as lojas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b23d2e02-bad8-4ec6-a156-015c865de7c8",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Vem ver as lojasAbrir menu",
+      "targets": [
+        ["linkText=Vem ver as lojasAbrir menu", "linkText"],
+        ["css=.mmn-link", "css:finder"],
+        ["xpath=//nav[@id='h_menu']/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.submarino.com.br/mapa-do-site')]", "xpath:href"],
+        ["xpath=//nav/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Vem ver as lojas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "675cd979-54bd-44e6-932a-31e4c33e8aaf",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.submarino.com.br/categoria/audio/fones-de-ouvido",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "be9ddfdb-c5ac-412c-b6bb-e8adfe714453",
+    "name": "Selecionar Produto através do menu",
+    "commands": [{
+      "id": "2684ea7b-c6b4-468b-88f2-efb9a5e066ed",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.submarino.com.br/categoria/audio/fones-de-ouvido",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3cf89062-05d9-49ec-8f90-6ae09d56527a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ace7b2db-4a70-4179-9361-1dc17cf408a9",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,200)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0d7042b2-21f1-4370-8643-ad7fa4e1f8e5",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,400)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8e1c8f32-10f7-4e89-8d38-87c75e917d0b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(1) > .product-grid-item:nth-child(1) .PriceUI-bwhjk3-11:nth-child(1)",
+      "targets": [
+        ["css=.row:nth-child(1) > .product-grid-item:nth-child(1) .PriceUI-bwhjk3-11:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='content-middle']/div[4]/div/div/div/div/div/div/div[2]/a/section/div[2]/div[2]/div[2]/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "d981eb21-415b-4315-a7a5-602a260eaf71",
+    "name": "Adicionar novo fone ao Carrinho",
+    "commands": [{
+      "id": "0e142b97-4ffe-4d51-8548-f93a0124f24d",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.submarino.com.br/produto/93842005/xiaomi-redmi-airdots-fone-de-ouvido-5-0-fones-de-ouvido-sem-fio-com-microfone-handsfree-f?pfm_carac=Fones%20de%20Ouvido&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9ef50f8b-c92d-469a-b529-acd41eb11c1b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "467a0b2a-958c-428c-af0f-e90b8c906921",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bmDUpk",
+      "targets": [
+        ["css=.bmDUpk", "css:finder"],
+        ["xpath=//a[@id='btn-buy']/div/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/a/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Comprar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "3dcdaba8-72cf-4750-b604-4675b152de4a",
+    "name": "Realizar busca pela linha digitável",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["6a825378-d564-40e5-900a-ce603a4a50fd", "3f1587dd-2670-4d2b-a5a0-e465ee606730", "128123a8-7714-4dad-95c2-79613e669d43", "95f5eb3f-f356-4f09-89c5-357248db02f3"]
+  }, {
+    "id": "91b49d20-38a0-4f27-a9d0-f3a850de5041",
+    "name": "Realizar busca através do menu",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["6a825378-d564-40e5-900a-ce603a4a50fd", "e793f5be-fe86-4e83-bad5-fd2e4e907caa", "be9ddfdb-c5ac-412c-b6bb-e8adfe714453", "d981eb21-415b-4315-a7a5-602a260eaf71"]
+  }],
+  "urls": ["https://www.submarino.com.br/", "http://submarino.com.br/", "https://www.submarino.com.br/landingpage/gamer-hardcore?chave=prf_hm_hr_0_1_gamer-hardcore-header&pfmPage=home&pfmPos=maintop1&pfm_carac=Nome%20da%20area&pfm_index=0&pfm_type=vit_spacey", "https://www.submarino.com.br/landingpage/apoie-o-comercio-local?chave=prf_hm_tp_0_1_comercio", "https://www.submarino.com.br/busca/fone-de-ouvido", "https://www.submarino.com.br/produto/93842005/xiaomi-redmi-airdots-fone-de-ouvido-5-0-fones-de-ouvido-sem-fio-com-microfone-handsfree-f?pfm_carac=fone%20de%20ouvido&pfm_index=1&pfm_page=search&pfm_pos=grid&pfm_type=search_page", "https://www.submarino.com.br/busca/almofadas", "https://www.americanas.com.br/", "https://www.americanas.com.br/hotsite/prevencao?chave=prf_hm_0_hr_1_00&pfmPage=home&pfmPos=maintop1&pfm_carac=Nome%20da%20area&pfm_index=0&pfm_type=vit_spacey", "https://www.netshoes.com.br/", "https://www.submarino.com.br/produto/134266331?pfm_carac=fone%20de%20ouvido&pfm_page=search&pfm_pos=grid&pfm_type=search_page", "https://www.submarino.com.br/categoria/audio/fones-de-ouvido", "https://www.submarino.com.br/produto/93842005/xiaomi-redmi-airdots-fone-de-ouvido-5-0-fones-de-ouvido-sem-fio-com-microfone-handsfree-f?pfm_carac=Fones%20de%20Ouvido&pfm_page=category&pfm_pos=grid&pfm_type=vit_product_grid"],
+  "plugins": []
+}
